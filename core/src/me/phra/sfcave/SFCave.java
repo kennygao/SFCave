@@ -22,7 +22,7 @@ public class SFCave extends ApplicationAdapter {
         batch = new SpriteBatch();
         texture = new Texture("badlogic.jpg");
         sprite = new Sprite(texture);
-        debug = new BitmapFont();
+        debug = new BitmapFont(Gdx.files.internal("inconsolata-12.fnt"));
         debug.setColor(Color.BLACK);
     }
 
